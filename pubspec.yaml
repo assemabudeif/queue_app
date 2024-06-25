@@ -1,0 +1,108 @@
+name: queue_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  rename: ^3.0.2
+  device_preview: ^1.1.0
+  dio: ^5.4.1
+  bloc: ^8.1.3
+  flutter_bloc: ^8.1.4
+  dartz: ^0.10.1
+  get: ^4.6.6
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.2
+  responsive_sizer: ^3.3.0+1
+  equatable: ^2.0.5
+  flutter_phoenix: ^1.1.1
+  flutter_svg: ^2.0.10+1
+  curved_labeled_navigation_bar: ^2.0.2
+  flutter_launcher_icons: ^0.13.1
+#  meta: ^1.12.0
+  country_code_picker: ^3.0.0
+  font_awesome_flutter: ^10.7.0
+  pretty_dio_logger: ^1.3.1
+  loading_animation_widget: ^1.2.1
+  shimmer: ^3.0.0
+  art_sweetalert: ^0.0.5
+  cached_network_image: ^3.3.1
+  geolocator: ^11.0.0
+  digital_lcd_number: ^0.1.2
+  lcd_led: ^1.0.0
+  auto_size_text: ^3.0.0
+  qr_code_scanner: ^1.0.1
+  onesignal_flutter: ^5.1.2
+  firebase_core: ^2.27.1
+  firebase_messaging: ^14.7.20
+  flutter_local_notifications: ^17.0.0
+  flutter_background_service: ^5.0.5
+  flutter_background_service_android: ^6.2.2
+  flutter_background_service_ios: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+  connectivity_plus: ^6.0.1
+#  qr_code_scanner: ^0.4.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icon_launcher.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: SFProRounded
+      fonts:
+        - asset: assets/fonts/SFProRounded/SFProRounded-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProRounded/SFProRounded-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SFProRounded/SFProRounded-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/SFProRounded/SFProRounded-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SFProRounded/SFProRounded-Black.ttf
+          weight: 900
+
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/cairo/Cairo-Light.ttf
+          weight: 200
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/cairo/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/cairo/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/cairo/Cairo-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/cairo/Cairo-Black.ttf
+          weight: 900
